@@ -16,7 +16,7 @@
 //   process.stdout.write('\r|   ');
 // }, 700);
 
-const sentence = ('\r|  ', '\r/  ', '\r-  ', '\r|   ');
+const sentence = (['\r|  ', '\r/  ', '\r-  ', '\r|   ']);
 
 for (const char in sentence) {
   setTimeout(() => {
